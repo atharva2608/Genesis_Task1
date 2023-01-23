@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.bg{
+    width: 100%;
+}
+.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+.c{
+    position: absolute;
+    left: 85%;
+    top: 5%;
+    
+}
+#search{
+    display: inline-block; 
+    outline: none;
+}
+h1{
+    color:aliceblue;
+    text-align: center;
+    font-family: 'Proza Libre', sans-serif;
+}
+#button{
+    left: 40%;
+}
+.back{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+p.first{
+    color: #ddd;
+    font-size: 48px;
+    font-family: sans-serif;
+    color: rgb(201, 175, 175);
+
+}
+.Rest{
+    position: absolute;
+    top: 30vh;
+    left: 10%;
+    text-align: center;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 68px;
+}
+.start{
+    font-size: 40px;
+    background-color: crimson;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 28px;
+}
+.hits1{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.block{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+.card{
+    padding: 20px;
+}
+.name{
+    color: black;
+    font-size: 18px;
+
+}
+.hits1{
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    background-color: grey;
+}
+.foot{
+    position: absolute;
+    top: 40%;
+    left: 46%;
+}
+.foots{
+    position: absolute;
+    top: 57%;
+    left: 44%;
+    padding: 40px;
+}
+#logo{
+    padding: 10px;
+}
